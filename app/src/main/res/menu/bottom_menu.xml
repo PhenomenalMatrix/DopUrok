@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+    android:id="@+id/recyclerFragment"
+    android:icon="@drawable/ic_android_black"
+    android:title="recycler"/>
+
+    <item
+        android:id="@+id/sendBundleFragment"
+        android:icon="@drawable/ic_android_black"
+        android:title="send bundle"/>
+
+    <item
+        android:id="@+id/getBundleFragment"
+        android:icon="@drawable/ic_android_black"
+        android:title="get bundle"/>
+
+</menu>
