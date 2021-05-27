@@ -13,6 +13,7 @@ import android.view.ViewGroup;
 
 import com.example.dopurok.R;
 import com.example.dopurok.adapter.MainAdapter;
+import com.example.dopurok.model.Users;
 
 import java.util.ArrayList;
 
@@ -20,7 +21,7 @@ public class RecyclerFragment extends Fragment {
 
     private RecyclerView recyclerView;
     private MainAdapter adapter = new MainAdapter();
-    private ArrayList<String> list = new ArrayList<>();
+    private ArrayList<Users> list = new ArrayList<>();
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -49,20 +50,15 @@ public class RecyclerFragment extends Fragment {
     }
 
     private void creatList() {
-        list.add("sssss");
-        list.add("sssss");
-        list.add("sssss");
-        list.add("sssss");
-        list.add("sssss");
-        list.add("sssss");
-        list.add("sssss");
-        list.add("sssss");
-        list.add("sssss");
-        list.add("sssss");
-        list.add("sssss");
-        list.add("sssss");
-        list.add("sssss");
-        list.add("sssss");
-        list.add("eddddd");
+        list.add(new Users("Oleg","Gromov",R.drawable.ic_android_black));
+        list.add(new Users("Oleg","Gromov",R.drawable.ic_android_black));
+        list.add(new Users("Oleg","Gromov",R.drawable.ic_android_black));
+        list.add(new Users("Oleg","Gromov",R.drawable.ic_android_black));
+        list.add(new Users("Oleg","Gromov",R.drawable.ic_android_black));
+        list.add(new Users("Oleg","Gromov",R.drawable.ic_android_black));
+        list.add(new Users("Oleg","Gromov",R.drawable.ic_android_black));
+        list.add(new Users("Oleg","Gromov",R.drawable.ic_android_black));
+        list.add(new Users("Yuri","Molotov",R.drawable.ic_launcher_foreground));
     }
+
 }
