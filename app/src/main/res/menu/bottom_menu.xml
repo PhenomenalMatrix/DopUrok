@@ -16,4 +16,9 @@
         android:icon="@drawable/ic_android_black"
         android:title="get bundle"/>
 
+    <item
+        android:id="@+id/roomFragment"
+        android:icon="@drawable/ic_android_black"
+        android:title="room"/>
+
 </menu>

@@ -20,4 +20,14 @@
         android:name="com.example.dopurok.ui.fragments.GetBundleFragment"
         android:label="fragment_get_bundle"
         tools:layout="@layout/fragment_get_bundle" />
+    <fragment
+        android:id="@+id/roomFragment"
+        android:name="com.example.dopurok.ui.fragments.RoomFragment"
+        android:label="fragment_room"
+        tools:layout="@layout/fragment_room" />
+    <fragment
+        android:id="@+id/formFragment"
+        android:name="com.example.dopurok.ui.fragments.FormFragment"
+        android:label="fragment_form"
+        tools:layout="@layout/fragment_form" />
 </navigation>
